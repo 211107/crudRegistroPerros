@@ -1,12 +1,10 @@
-import org.w3c.dom.Text;
-
 import javax.naming.Name;
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Table(name = "dog")
-public class dog {
+public class Dog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer codigo;
